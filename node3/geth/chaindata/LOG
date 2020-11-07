@@ -1,0 +1,32 @@
+=============== Oct 29, 2020 (PDT) ===============
+21:38:01.797784 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:38:01.815039 db@open opening
+21:38:01.816300 version@stat F·[] S·0B[] Sc·[]
+21:38:01.833528 db@janitor F·2 G·0
+21:38:01.833726 db@open done T·18.617252ms
+21:38:01.839020 db@close closing
+21:38:01.839212 db@close done T·190.294µs
+=============== Oct 29, 2020 (PDT) ===============
+21:38:31.520348 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:38:31.520656 version@stat F·[] S·0B[] Sc·[]
+21:38:31.520709 db@open opening
+21:38:31.520814 journal@recovery F·1
+21:38:31.523232 journal@recovery recovering @1
+21:38:31.537111 memdb@flush created L0@2 N·623 S·50KiB "\x02d\xfc..\x19Ba,v429":"\xfe\x88\xcf..H\xef\xcc,v362"
+21:38:31.539508 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+21:38:31.568690 db@janitor F·3 G·0
+21:38:31.568768 db@open done T·48.029947ms
+21:39:42.852614 db@close closing
+21:39:42.852783 db@close done T·167.365µs
+=============== Oct 29, 2020 (PDT) ===============
+21:39:48.209543 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:39:48.209854 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+21:39:48.209908 db@open opening
+21:39:48.210016 journal@recovery F·1
+21:39:48.212282 journal@recovery recovering @3
+21:39:48.227054 memdb@flush created L0@5 N·2 S·428B "Dat..ion,v625":"cli..\xf0\xfc\xa3,v626"
+21:39:48.229825 version@stat F·[2] S·51KiB[51KiB] Sc·[0.50]
+21:39:48.259692 db@janitor F·4 G·0
+21:39:48.259762 db@open done T·49.82039ms
+21:59:48.097282 db@close closing
+21:59:48.097497 db@close done T·213.348µs
